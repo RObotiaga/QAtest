@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-test('basic test', async ({ page }) => {
+test('first test', async ({ page }) => {
   await page.goto('https://robotiaga.github.io/');
   await page.click('text=ПЛЮСИК');
   await page.click('text=ПЛЮСИК');
