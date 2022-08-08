@@ -4,8 +4,6 @@ test('basic test', async ({ page }) => {
   await page.click('text=ПЛЮСИК');
   await page.click('text=ПЛЮСИК');
   await page.click('text=ПЛЮСИК');
-  await page.click('text=ПЛЮСИК X10');
-  await page.click('text=ПЛЮСИК X10');
-  await page.click('text=ПЛЮСИК X10');
-  await expect(page.locator('#out')).toHaveText('33');
+  await page.click('text=CLEAR');
+  await expect(page.locator('#out')).toHaveText('0');
 });
