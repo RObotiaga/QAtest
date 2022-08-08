@@ -4,7 +4,7 @@ var schet = document.getElementById("plus");
 var schetix = document.getElementById("plusx10");
 var clr = document.getElementById("clr");
 schet.onclick = function() {
-  count += 1;
+  count -= 1;
   button.innerHTML =  count;
 };
 schetix.onclick = function() {
