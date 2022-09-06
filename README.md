@@ -1,2 +1,5 @@
 # RObotiaga.github.io
-main
+## Репозиторий созданный для отработки настройки CI-CD
+- Собственно ручно была создана страничка RObotiaga.github.io
+- Написан автотест на playwright
+- Добавлен автозапуск теста в HitHub Actions
